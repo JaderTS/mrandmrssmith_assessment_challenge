@@ -11,6 +11,11 @@
 
 > Click on the link to see more details about the project some good coding practices when under taking test automation and why they are important. To setup and install the project, run the command, and run the project locally https://dev.to/jaderts/mr-and-mrs-smith-assessment-challenge-automated-tests-with-cypress-and-cucumber-18ec
 
+## Plus
+- Test Planning and Strategy Execution.pdf
+- PentestTools-WebsiteScanner-report.pdf
+- PerformanceGTmetrix-report.pdf
+
 ## Tools & Framework Used.
 * Language: Javascript
 * Tool: Cypress
