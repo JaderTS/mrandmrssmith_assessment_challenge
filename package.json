@@ -1,0 +1,35 @@
+{
+  "name": "mrandmrssmith_assessment_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome",
+    "cypress:run": "cypress run ",
+    "postcypress:run": "node ./cypress/support/cucumber-html-reporter.js",
+    "recordDashBoardTest": "npm run test --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochawesome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "JaderCunha",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.1.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.1"
+  }
+}
